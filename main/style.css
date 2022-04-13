@@ -1,0 +1,46 @@
+body{
+  background-color: #A8B0CD;
+}
+body {
+  font-family: 'Waiting for the Sunrise', monospace; 
+  font-size:56px; 
+  margin: 250px 50px; 
+  letter-spacing: 4px; 
+  font-weight: bold;
+}
+p{
+  font-family: "Waiting for the Sunrise", monospace;
+  font-size: 25px;
+  margin-top:0px;
+  margin-bottom:100px;
+  margin-right:150px;
+  margin-left:80;
+  letter-spacing: 6px; 
+  font-weight: bold; 
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 35px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 10px 0px;
+  cursor: pointer;
+  box-shadow: 5px 10px #939D99;
+}
+.button1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 35px 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 35px 0px;
+  cursor: pointer;
+  box-shadow: 5px 10px #939D99;
+}
