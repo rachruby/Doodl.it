@@ -1,0 +1,102 @@
+body{
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+body {
+  font-family: 'Waiting for the Sunrise', monospace; 
+  font-size:56px; 
+  margin: 250px 50px; 
+  letter-spacing: 4px; 
+  font-weight: bold;
+}
+p{
+  font-family: "Waiting for the Sunrise", monospace;
+  font-size: 25px;
+  margin-top:0px;
+  margin-bottom:100px;
+  margin-right:150px;
+  margin-left:80;
+  letter-spacing: 6px; 
+  font-weight: bold; 
+}
+
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 25px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+  box-shadow: 10px 5px 5px #E33927;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.button1 {
+  border-radius: 4px;
+  background-color: #38BF45;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+  padding: 25px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px;
+  box-shadow: 10px 5px 5px #298A36;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
